@@ -1,0 +1,106 @@
+.container-card .card {
+
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.container-card .card.ImgP .pokeimagen {
+   
+
+}
+
+.ImgP .pokeimagen {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.ImgP::after {
+    width: 180px;
+    height: 180px;
+    /* background: red; */
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: .5;
+
+
+}
+/* styles and types*/
+.fire::after {
+    background: #F66D6D;
+}
+
+.water::after {
+    background: #88A3D4;
+}
+
+.grass::after {
+    background: #73B861;
+}
+
+.electric::after {
+    background: #EED967;
+}
+
+.ice::after {
+    background: #8BCEC1;
+}
+
+.fighting::after {
+    background: #C44D61;
+}
+
+.poison::after {
+    background: #AC6ACA;
+}
+
+.ground::after {
+    background: #CE8056;
+}
+
+.flying::after {
+    background: #A6BBE8;
+}
+
+.psychic::after {
+    background: #EB8B85;
+}
+
+.bug::after {
+    background: #9BBA48;
+}
+
+.rock::after {
+    background: #8BCEC1;
+}
+
+.ghost::after {
+    background: #616EB7;
+}
+
+.dark::after {
+    background: #595761;
+}
+
+.dragon::after {
+    background: #2C6AC1;
+}
+
+.steel::after {
+    background: #6594A1;
+}
+
+.fairy::after {
+    background: #E296E1;
+}
+
+.normal::after {
+    background: #A0A29F;
+}

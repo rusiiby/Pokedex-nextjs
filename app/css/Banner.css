@@ -1,0 +1,26 @@
+.banner{
+    background: linear-gradient(180deg, #741414 0%, #060D13 100%);
+    height: 100%;
+}
+.banner .container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-right{
+    width: 50%;
+
+}
+.banner-left{
+    width: 50%;
+
+}
+.banner-right img{
+    width: 100%;
+}
+.btn.btn-dark{
+    background: red;
+}
+

@@ -1,8 +1,10 @@
-:root {
+ /* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+ */
 
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -40,3 +42,28 @@ a {
     color-scheme: dark;
   }
 }
+
+.banner{
+    background: linear-gradient(180deg, #587FAA 0%, #060D13 100%);
+}
+.banner .container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-right{
+    width: 50%;
+
+}
+.banner-left{
+    width: 50%;
+
+}
+.banner-right img{
+    width: 100%;
+}
+.btn.btn-dark{
+    background: red;
+} */
